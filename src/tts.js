@@ -14,7 +14,7 @@ const tts = axios.create({
       // eslint-disable-next-line no-param-reassign
       data = JSON.parse(data);
     } catch {
-      return { error: true, message: 'Возможно, номер карты введет неправильно или же ведутся технические работы на сервере. Также не исключено, что карта заблокирована.', details: data };
+      return { error: true, message: 'Возможно, номер карты введен неправильно или же ведутся технические работы на сервере. Также не исключено, что карта заблокирована.', details: data };
     }
 
     if (data.card) {

@@ -110,7 +110,7 @@ window.state = state;
       <div v-for="event in state.card.history" :key="event.date" class="event flex flex-col bg-neutral-800 p-4 rounded-md gap-2">
         <div class="event-summary w-full flex justify-between items-center">
           <div class="left flex items-center w-full">
-            <div class="route-number p-2 text-lg text-green-500 font-bold">{{ event.routeNumber }}</div>
+            <div class="route-number p-2 text-xl text-green-500 font-bold">{{ event.routeNumber }}</div>
             <div class="route-name p-2 text-white rounded-lg">{{ event.routeName }}</div>
           </div>
 
@@ -131,7 +131,7 @@ window.state = state;
     </div>
 
     <div class="footer flex flex-col gap-2 text-center text-neutral-500 text-sm">
-      <div class="disclaimer">Данное приложение не является официальным, но получает данные о транспортной карте с сервиса tgt72.ru. Также, вы можете воспользоваться <a href="https://vk.com/tts_app" target="_blank" class="font-medium text-green-500">чат-ботом ВКонтакте</a></div>
+      <div class="disclaimer">Данные о транспортной карте предоставлены сервисом <a href="https://tgt72.ru" target="_blank" class="font-medium text-green-500">tgt72.ru</a> Также вы можете воспользоваться <a href="https://vk.com/tts_app" target="_blank" class="font-medium text-green-500">чат-ботом ВКонтакте</a></div>
       <div class="author">made with love by <a href="https://t.me/tsivxrev" target="_blank" class="font-medium text-green-500">@tsivxrev</a></div>
     </div>
   </div>
