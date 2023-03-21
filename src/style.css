@@ -26,3 +26,23 @@ html, body, #app {
   margin: 0;
   padding: 0;
 }
+
+.button {
+    @apply w-full rounded-md text-white font-medium flex gap-1 py-2 px-4 justify-center items-center cursor-pointer hover:bg-green-500 transition duration-300
+}
+
+label {
+    @apply text-sm font-normal text-neutral-500 mb-1
+}
+
+input {
+    @apply w-full px-4 py-2 rounded-lg !outline-none text-white bg-neutral-800 placeholder:text-neutral-500 disabled:text-neutral-500
+}
+
+.title {
+    @apply text-lg text-white font-bold
+}
+
+.subtitle {
+    @apply text-base text-neutral-500 font-normal
+}
